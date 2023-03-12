@@ -5,6 +5,7 @@ As some of you may know "Google Sign-in with web"  will be deprecated on March 3
 ### Prerequisites:
 1) Follow the steps described in [Setup](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid) to configure your OAuth Consent Screen and to obtain a Client ID.
 2) [Load the client library](https://developers.google.com/identity/gsi/web/guides/client-library).
+3) Set your Google client id as a environment variable GOOGLE_CLIENT_ID
 
 ## Getting Started
 

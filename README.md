@@ -1,6 +1,6 @@
 # sign_in_with_google_for_web
 
-As some of you may know "Google Sign-in with web"  will be deprecated on March 31, 2023.I have done a new "Sign in with Google for web" on my application. It works very smoothly and is easy to implement.
+As some of you may know ["Google Sign-in with web"](https://developers.google.com/identity/sign-in/web/sign-in)  will be deprecated on March 31, 2023.I have done a new ["Sign in with Google for web"](https://developers.google.com/identity/gsi/web/guides/overview) on my application. It works very smoothly and is easy to implement.
 
 ### Prerequisites:
 1) Follow the steps described in [Setup](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid) to configure your OAuth Consent Screen and to obtain a Client ID.
@@ -55,7 +55,7 @@ The `--reload` flag will detect file changes and restart the server automaticall
 
 ## Endpoint:
 
-Get Client
+Get Client Details
 
     GET '/login'
     - Fetches all informations about client: id, name, email, family_name.

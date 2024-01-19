@@ -48,10 +48,12 @@ export FLASK_APP=app.py;
 To run the server, execute:
 
 ```bash
-flask run --reload
+flask run --reload --port 8000
 ```
 
-The `--reload` flag will detect file changes and restart the server automatically.
+The `--reload` flag will detect file changes and restart the server
+automatically. The `--port` flag will start the server on a custom port (default
+is 5000).
 
 ## Endpoint:
 
